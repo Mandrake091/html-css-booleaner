@@ -1,4 +1,4 @@
-*:not(strong,img,figcaption,.FooterText){ 
+*:not(strong,img,figcaption,.FooterText,span){ 
     box-sizing: border-box;
     padding:0;
     margin: 0 30px;
