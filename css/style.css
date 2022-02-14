@@ -1,19 +1,26 @@
-* { box-sizing: border-box;
-    padding:0 2px;
+*{ 
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    
 }
-.backgroundImage{  
+main, figure, section, footer:not(table){
+    margin-left: 5px;
+}
+table{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    border-spacing: 0px;
+    text-align: left;
+}
+.HeaderImage{  
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
     background-size: 30%;
     height: 90px; 
     margin-bottom: 10px;
 }
-#writer{
-    color: #4ea0ff;
-}
-#logo{ 
+#Logo{ 
     background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-position: bottom left 5px;
@@ -23,14 +30,10 @@
 }
 span{background-color: yellow;
 }
-
-table{
-    padding: 0px;
-    margin: 0px;
-    height: 10px;
-    border: none;
-    border-spacing: 0px;
+ul{
+    margin-left: 15px;
 }
+
 #A1{
     width: 25%;
 }
@@ -38,61 +41,47 @@ table{
 #A2{
     width: 25%;
 }
-.row1{
+.Row1{
     background-color: #4ea0ff;
-    text-align: left;
     color: white; 
 }
-.row2>td{
+.Row2>td{
     color: black;
     background-color:#b1e5f2;
 }
-.row3>td{
+.Row3>td{
     color: black;
     background-color:white;
 }
-.row4>td{
+.Row4>td{
     color: black;
     background-color:#b1e5f2;
-}
-
-td{
-    vertical-align: center;
-    background-color: #b1e5f2; 
-    color: white;
-}
-
-.lastColumn{
-    text-align: justify;
 }
 footer {
     position: absolute;
     height: 300px;
     width: 300px;
+    color:grey
 }
-.footerImg{
+.FooterImg{
     margin-top: 10px;
     background-image: url(../img/monitor.jpg);
     height: 300px;
     background-position: cover;
     background-repeat: no-repeat;
 }
-#FooterText{
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    position:relative;
-    padding:15px;
-}
-
-footer{
-    color:grey
-}
-.footerImg2{
+.FooterImg2{
     background-image: url(../img/graph.jpg);
     background-position: cover;
     background-repeat: no-repeat;
     position: relative;
     bottom:80px;
     height: 300px;
+}
+.FooterText{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    position:relative;
+    padding:15px;
 }
