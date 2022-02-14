@@ -1,0 +1,79 @@
+*:not(strong,img,figcaption,.FooterText){ 
+    box-sizing: border-box;
+    padding:0;
+    margin: 0 30px;
+}
+
+figure>img,figcaption{
+    margin-left: 30px;
+}
+table{
+    border: none;
+    border-spacing: 0px;
+    text-align: left;
+}
+.HeaderImage{  
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: 30%;
+    height: 90px; 
+    margin-bottom: 10px;
+}
+#Logo{ 
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left 5px;
+    background-size: 90%;
+    height: 80px;
+    width: 200px;
+}
+span{background-color: yellow;
+}
+main{
+    margin:0px;
+}
+
+#A1{
+    width: 25%;
+}
+
+#A2{
+    width: 25%;
+}
+.Row1{
+    background-color: #4ea0ff;
+    color: white; 
+}
+.Row2>td{
+    color: black;
+    background-color:#b1e5f2;
+}
+.Row3>td{
+    color: black;
+    background-color:white;
+}
+.Row4>td{
+    color: black;
+    background-color:#b1e5f2;
+}
+footer{
+    color:grey;
+}
+.FooterImg{
+    padding-top: 15px;
+    position:relative;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.FooterImg2{
+    position:absolute;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.FooterText{
+    padding: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
